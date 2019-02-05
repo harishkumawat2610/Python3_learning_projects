@@ -18,10 +18,100 @@ Mastering Selenium will help you automate your day to day tasks like controlling
 $ pip3 install seleninum
 ```
 
-#  Web Drivers
+##  Web Drivers
 
   - Selenium requires a web driver to interface with the chosen browser.Web drivers is a package to interact with web browser
   - It interacts with the web browser or a remote web server through a wire protocol which is common to all. You can check out and install the web drivers of your browser choice.
 * [Chrome:] - https://sites.google.com/a/chromium.org/chromedriver/downloads
 * [Firefox:] - https://github.com/mozilla/geckodriver/releases
 * [Safari:] - https://webkit.org/blog/6900/webdriver-support-in-safari-10/
+
+[![N|Solid](https://drive.google.com/uc?id=1DvC0Bb6bg_sMZe3rjgJ5Wh9XnP_bNJdC)](https://www.facebook.com/harish.kumawat.9638)
+
+
+# Voice Search Engine Assistant
+## 1 webbrowser
+    The webbrowser module includes functions to open URLs in interactive browser applications. The module includes a registry     of available browsers, in case multiple options are available on the system. It can also be controlled with the BROWSER       environment variable.
+    
+    webbrowser is part of the python standard library, you don't have to install a separate package to use it because it         comes bundled with your python installation.
+    If you get an error like…
+    
+    ImportError: No module named webbrowser
+    
+   this means you don’t have installed webbrowser library.
+
+   If it is not installed on your system, you can install it using pip by the following command.
+   
+```sh
+$ pip3 install webbrowser
+```
+
+    
+    
+    
+    
+## Example
+webbrowser.open_new(url)
+    Open url in a new window of the default browser, if possible, otherwise,
+    open url in the only browser window.
+
+webbrowser.open_new_tab(url)
+    Open url in a new page (“tab”) of the default browser, if possible, 
+    otherwise equivalent to open_new().
+    
+    The following table lists predefined browser types. The left column are names that can be passed into the webbrowser.get() method and the right column lists the class names for each browser type.
+
+ - Opening URL in Default Browser:
+
+```sh
+# importing webbrowser python module
+import webbrowser
+#Assigning URL to be opened
+strURL = "http://www.myactualfriends.com"
+#Open url in default browser
+webbrowser.open(strURL, new=2)
+
+```
+The new  parameter have special significance.
+
+If new = 0, open URL in same browser window
+If new = 1,  opens URL in new browser window
+If new = 2, open URL in same tab.
+
+ - Opening URL in specific browser, let’s say in Firefox and Chrome:
+ 
+```sh
+import webbrowser
+webbrowser.get('firefox').open_new_tab('www.myactualfriends.com')
+#Opens URL in Firefox browser
+ 
+webbrowser.get('chrome').open_new_tab('http://www.myactualfriends.com')
+#Opens URL in Chrome browser
+
+``` 
+   
+   
+   
+   |Type Name | Class Name |
+| ------ | ------ |
+| 'mozilla' | Mozilla('mozilla') |
+| 'firefox' | Mozilla('mozilla') |
+| 'netscape' | Mozilla('netscape') |
+| 'galeon'| Galeon('galeon') |
+|'epiphany' | Galeon('epiphany') |
+| 'skipstone'| BackgroundBrowser('skipstone') |
+| 'kfmclient' |Konqueror() |
+| 'konqueror' | Konqueror() |
+| 'kfm' | Konqueror() |
+| 'chrome'| Chrome('chrome') |
+|'google-chrome' | Chrome('google-chrome') |
+| 'safari'| MacOSX('safari') |
+| 'chromium' |Chromium('chromium') 
+| 'chromium-browser' |Chromium('chromium-browser') |
+| 'windows-default' | WindowsDefault |
+| 'opera'|Opera() |
+|'macosx' | MacOSX('default') |
+    
+    
+    
+   
