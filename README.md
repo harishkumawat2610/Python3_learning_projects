@@ -112,6 +112,43 @@ webbrowser.get('chrome').open_new_tab('http://www.myactualfriends.com')
 | 'opera'|Opera() |
 |'macosx' | MacOSX('default') |
     
-    
-    
+[![N|Solid](https://drive.google.com/uc?id=1traH05ponmZ-CIq2-QmDY7WwIlu7JyYN)](https://www.facebook.com/harish.kumawat.9638)    
+# Browser Automation Using Selenium for What'sapp auto message and Chating with terminal.
+# intro of Selenium
+Selenium is a powerful tool for controlling web browser through program. It is functional for all browsers, works on all major OS and its scripts are written in various languages i.e Python, Java, C# etc, we will be working with Python.
+
+Mastering Selenium will help you automate your day to day tasks like controlling your tweets, Whatsapp texting and even just googling without actually opening a browser in just 15-30 lines of python code. The limits of automation is endless with selenium.
+# 1.install selenium
+```sh
+$ pip3 install seleninum
+```
+
+##  Web Drivers
+
+  - Selenium requires a web driver to interface with the chosen browser.Web drivers is a package to interact with web browser
+  - It interacts with the web browser or a remote web server through a wire protocol which is common to all. You can check out and install the web drivers of your browser choice.
+* [Chrome:] - https://sites.google.com/a/chromium.org/chromedriver/downloads
+* [Firefox:] - https://github.com/mozilla/geckodriver/releases
+* [Safari:] - https://webkit.org/blog/6900/webdriver-support-in-safari-10/
+
+## Example
+1 - Scan Qr code
+
+[![N|Solid](https://drive.google.com/uc?id=130eKCveR_QLj2SmotDtW1d4v6g0iAPbM)]() 
+
+## 2 - Enter count Value
+
+### if count value Greater then 1
+#### output:-
+[![N|Solid](https://drive.google.com/uc?id=1yIQgCHVeZ1NswCz-jNujjRNpXIRuw-7z)]() 
+
+### if count value equal to 1
+#### output:-
+[![N|Solid](https://drive.google.com/uc?id=1wmlu7-wQHn_0WqMCpDAFrfiBsERmM4Dx)]() 
+
+## Stop Chating
+#### output:-
+[![N|Solid](https://drive.google.com/uc?id=1HbFTDO7cuBJnX0roL8jxh_ka07ugaSRd)]() 
+
+
    
