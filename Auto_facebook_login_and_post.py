@@ -6,7 +6,6 @@ from time import sleep
 use = input('Enter your facebook username or email : ')
 pwd = getpass('Enter your facebook password : ')
 message=input('Enter your message for status')
-image_path = input('Enter your image path : ')
 
 
 browser = webdriver.Chrome()
