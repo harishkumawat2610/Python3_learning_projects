@@ -134,21 +134,40 @@ $ pip3 install seleninum
 ## Example
 1 - Scan Qr code
 
-[![N|Solid](https://drive.google.com/uc?id=130eKCveR_QLj2SmotDtW1d4v6g0iAPbM)]() 
+[![N|Solid](https://drive.google.com/uc?id=130eKCveR_QLj2SmotDtW1d4v6g0iAPbM)]
 
 ## 2 - Enter count Value
 
 ### if count value Greater then 1
 #### output:-
-[![N|Solid](https://drive.google.com/uc?id=1yIQgCHVeZ1NswCz-jNujjRNpXIRuw-7z)]() 
+[![N|Solid](https://drive.google.com/uc?id=1yIQgCHVeZ1NswCz-jNujjRNpXIRuw-7z)] 
 
 ### if count value equal to 1
 #### output:-
-[![N|Solid](https://drive.google.com/uc?id=1wmlu7-wQHn_0WqMCpDAFrfiBsERmM4Dx)]() 
+[![N|Solid](https://drive.google.com/uc?id=1wmlu7-wQHn_0WqMCpDAFrfiBsERmM4Dx)]
 
 ## Stop Chating
 #### output:-
 [![N|Solid](https://drive.google.com/uc?id=1HbFTDO7cuBJnX0roL8jxh_ka07ugaSRd)]() 
 
+[![N|Solid](https://drive.google.com/uc?id=1w0uI2u4SMUwpJgiSo00fBcbgIlZm6tO2)]() 
+
+#  Recording Video From CCTV and Rstp ip address with Help of OpenCv and Python3
+
 
    
+### Given an IP camera:
+
+- Find your camera IP address
+- Find the port where the IP address is accessed
+- Find the protocol (HTTP/RTSP etc.) specified by the camera provider
+Then, if your camera is protected go ahead and find out:
+
+- your username
+- your password
+import cv2
+
+```sh stream = cv2.VideoCapture('protocol://IP:port/1') ```
+
+### Use the next line if your camera has a username and password
+ ```sh stream = cv2.VideoCapture('protocol://username:password@IP:port/1') ```
