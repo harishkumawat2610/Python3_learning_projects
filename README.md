@@ -171,3 +171,6 @@ import cv2
 
 ### Use the next line if your camera has a username and password
  ```sh stream = cv2.VideoCapture('protocol://username:password@IP:port/1') ```
+ 
+ 
+ # Next project is gui for download youtube videos and audios by our applications
