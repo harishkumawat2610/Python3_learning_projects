@@ -6,6 +6,7 @@ input('Enter anything after scanning QR code..typing ok  ')
 
 name = input('Enter the name of user or group : ')
 
+#count number importate 
 count = int(input('Enter the count : '))
 
 
